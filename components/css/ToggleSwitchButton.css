@@ -1,0 +1,45 @@
+
+.grandParent {
+    width: fit-content;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+}
+
+.parent {
+    width: 37px;
+    height: 15px;
+    border-radius: 35px;
+    padding: 2px;
+    cursor: pointer;
+}
+
+.child {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    margin-left: 1px;
+}
+
+.grandParent span {
+    margin-left: 3px;
+}
+
+.on {
+    background-color: #fff;
+    transform: translateX(20px);
+    transition: 0.3s;
+}
+
+.off {
+    background-color: #fff;
+    transform: translateX(0);
+    transition: 0.3s;
+}
+/* 
+@media screen and (max-width: 576px) {
+    .grandParent {
+        zoom: 50%;
+    }
+} */

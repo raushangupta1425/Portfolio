@@ -1,0 +1,23 @@
+.carouselInner{
+    display: flex;
+    overflow-x: hidden;
+}
+@keyframes slide {
+0% { top: 0px; right: 0px; }
+16% { top: 0px; right: 100vw; }
+33% { top: 0px; right: 100vw; } /* Pause for 3 second */
+49% { top: 0px; right: 200vw; }
+66% { top: 0px; right: 200vw; } /* Pause for 3 second */
+82% { top: 0px; right: 300vw; } 
+100% { top: 0px; right: 300vw; } /* Pause for 3 second */
+}
+
+.carouselItem {
+position: relative;
+animation: slide 20s linear infinite;
+}
+
+.carouselItem>img{
+width: 100vw;
+height: 90vh;
+}

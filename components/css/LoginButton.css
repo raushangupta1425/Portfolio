@@ -1,0 +1,13 @@
+.loginBox {
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3px 8px;
+    border-radius: 5px;
+    background-color: inherit;
+}
+
+.loginBox:hover {
+    border: 1px solid blue;
+}

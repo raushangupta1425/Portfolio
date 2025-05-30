@@ -1,0 +1,24 @@
+#footer {
+    padding: 20px;
+    align-items: start;
+}
+
+#footer div:nth-child(2), #footer div:nth-child(3) {
+    justify-items: center;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    color: inherit;
+    background-color: transparent;
+}
+#copyright {
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

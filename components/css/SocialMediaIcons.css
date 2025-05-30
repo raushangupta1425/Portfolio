@@ -1,0 +1,9 @@
+.socialIcons {
+    width: fit-content;
+    display: flex;
+    gap: 20px;
+}
+
+.socialIcons a {
+    color: inherit;
+}

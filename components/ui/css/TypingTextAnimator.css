@@ -1,0 +1,25 @@
+.typing-container {
+  font-size: 24px;
+  /* font-family: 'Courier New', Courier, monospace; */
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 2px solid white;
+  display: inline-block;
+}
+
+.typing-text {
+  letter-spacing: 1px;
+}
+
+.cursor {
+  display: inline-block;
+  animation: blink 0.8s infinite;
+  color: white;
+}
+
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0; }
+}
